@@ -1,0 +1,90 @@
+# Xcode
+#
+build/
+*.xcuserdatad/
+*.xcuserdata
+*.xcworkspace
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+#
+.build/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.swiftpm/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Carthage
+#
+Carthage/Build/
+Carthage/Checkouts/
+
+# Accio dependency manager
+#
+.accio/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Code signing
+#
+*.cer
+*.crt
+*.pem
+
+# Temporary files
+#
+*.tmp
+*.swp
+*.lock
+.DS_Store
+profile
+xcuserdata
+
+# System
+#
+.idea/
+.vscode/
+*.orig
+*.DS_Store
+*.swp
+
+# Certificates
+*.p12
+*.mobileprovision
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.icon?

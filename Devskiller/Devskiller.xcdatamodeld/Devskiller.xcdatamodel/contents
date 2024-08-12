@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23D60" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CompanyCoreDataModel" representedClassName="CompanyCoreDataModel" syncable="YES">
+        <attribute name="employees" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="founded" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="founder" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="launchSites" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="valuation" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="LaunchCoreDataModel" representedClassName="LaunchCoreDataModel" syncable="YES">
+        <attribute name="article" optional="YES" attributeType="String"/>
+        <attribute name="date_utc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="missionPatchLarge" optional="YES" attributeType="String"/>
+        <attribute name="missionPatchSmall" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="rocket_id" optional="YES" attributeType="String"/>
+        <attribute name="rocket_name" optional="YES" attributeType="String"/>
+        <attribute name="rocket_type" optional="YES" attributeType="String"/>
+        <attribute name="success" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="wikipedia" optional="YES" attributeType="String"/>
+        <attribute name="youtubeID" optional="YES" attributeType="String"/>
+    </entity>
+</model>

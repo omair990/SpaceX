@@ -1,0 +1,10 @@
+{
+    "name": "SpaceX",
+    "founder": "Elon Musk",
+    "founded": 2002,
+    "employees": 8000,
+    "launchSites": 3,
+    "valuation": 74000000000,
+    "id": "spacex"
+}
+
